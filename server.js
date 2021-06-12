@@ -36,5 +36,5 @@ app.get('/', (req, res, next) => {
   res.render('index', { url: null })
 })
 
-app.listen(3031)
-console.log('listening on 3031')
+app.listen(process.env.PORT || 3000)
+console.log('listening on 3000')
