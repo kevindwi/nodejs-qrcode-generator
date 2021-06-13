@@ -1,6 +1,7 @@
 NodeJS QR Code Generator
 ========================
-View the live demo: 
+View the live demo: https://nodejs-qrcode-generator.herokuapp.com
+
 
 ## Instalation
 ```
