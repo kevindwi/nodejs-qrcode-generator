@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 let data;
 
-app.post('/generate', (req, res, next) => {
+app.post('/', (req, res, next) => {
   data = req.body.data
   // console.log(data)
   
